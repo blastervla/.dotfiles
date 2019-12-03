@@ -6,6 +6,7 @@ alias clear_derived="fastlane run clear_derived_data"
 alias clean_ios="podfix && clear_derived"
 
 ## Git aliases
+alias gc="git commit"
 alias gcl="git clone"
 alias gl="git pull"
 alias gp="git push"
