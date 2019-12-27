@@ -33,7 +33,7 @@ the branch that needs to be rebased and everything will be done automatically
 for you. Should any conflicts appear, just fix them (**pro-tip:** just use [git
 mergetool](Mergetool.md)!) and use `git rebase --continue` to keep on with the
 rebase. Several aliases are available for all these operations, you can check
-them out in the [.zsh_aliases](../.zsh/.zsh_aliases) file.
+them out in the [.zsh_aliases](../../.zsh/.zsh_aliases) file.
 
 Another way in which you can use git rebase is interactively. Why? Well,
 remember when I told you that rebasing had its quirks? Here they come!
@@ -63,7 +63,7 @@ is a small list of some of them, just to get you started.
   just on top of it)
 - `fixup` will work just like squash, but discarding the commit message. This is
   the one you'll be using most if you follow the 
-  [Pull Request Best Practices](../BestPractices/PullRequests) guidelines.
+  [Pull Request Best Practices](../../BestPractices/PullRequests) guidelines.
 
 One thing to keep in mind is that, if you just want to alter the history of your
 current branch, and not rebase it with the base, you can always use `HEAD~k` as
