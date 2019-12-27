@@ -6,7 +6,7 @@ bundled with the actual git toolset.
 `mergetool` is a powerful tool that'll aid you when having merge conflicts. No
 need to open each conflicted file one by one, this'll help you.
 
-## How to?
+### How to?
 Just run `git mergetool` (`gmg` if using the aliases in 
 [.zsh_aliases](../../.zsh/.zsh_aliases)) and the default `difftool` will open 
 up. You can see diffs side by side and fix whatever needs to be fixed with a 
@@ -17,7 +17,7 @@ commit, and you're ready to go!
 But... the default tool UI is quite ugly and a bit counter-intuitive. And we'd
 like to change that.
 
-## Making it neat
+### Making it neat
 So, an interesting thing about `mergetool` is that you can actually configure it
 to use any UI - a.k.a `difftool` - you'd like. You can use VIM (only recommended 
 for experienced VIM users with a nice color scheme set up) or VSCode, for 

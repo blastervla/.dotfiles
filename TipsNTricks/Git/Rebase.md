@@ -22,7 +22,7 @@ in the base branch, and you can fix any conflicts that arise along the way.
 Boom!
 
 Visually, all of this would simply look like the following:
-![Rebase Image](rebase.png "Git Rebase Visually")
+![Rebase Image](img/rebase.png "Git Rebase Visually")
 
 ### How to?
 So, ok, I bet you're now convinced that rebasing is quite amazing. But, how do
@@ -63,7 +63,7 @@ is a small list of some of them, just to get you started.
   just on top of it)
 - `fixup` will work just like squash, but discarding the commit message. This is
   the one you'll be using most if you follow the 
-  [Pull Request Best Practices](../../BestPractices/PullRequests) guidelines.
+  [Pull Request Best Practices](../../BestPractices/PullRequests.md) guidelines.
 
 One thing to keep in mind is that, if you just want to alter the history of your
 current branch, and not rebase it with the base, you can always use `HEAD~k` as
