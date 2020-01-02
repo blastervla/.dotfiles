@@ -47,7 +47,7 @@ this.
 Whenever you want to rebase interactively, just add the `-i` flag at the end of
 the command. Simple, right? Afterwards, a text file will open up in your editor
 of choice (I recommend using VIM, you can find tips and tricks on this editor
-over [here](VIM.md)), listing all commits that will be rebased. They'll be
+over [here](../VIM)), listing all commits that will be rebased. They'll be
 applied from top to bottom, but you can always alter this order by moving the
 lines around. But that's not all.
 
