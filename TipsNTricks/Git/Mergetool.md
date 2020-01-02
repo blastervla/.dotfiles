@@ -8,7 +8,7 @@ need to open each conflicted file one by one, this'll help you.
 
 ### How to?
 Just run `git mergetool` (`gmg` if using the aliases in 
-[.zsh_aliases](../../.zsh/.zsh_aliases)) and the default `difftool` will open 
+[.zsh_aliases](../../Resources/.zsh/.zsh_aliases)) and the default `difftool` will open 
 up. You can see diffs side by side and fix whatever needs to be fixed with a 
 helpful UI. When you're done with a file, just save and close the tool, then the
 next conflicted file will show up. Repeat until all conflicts are solved,

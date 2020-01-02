@@ -33,7 +33,7 @@ the branch that needs to be rebased and everything will be done automatically
 for you. Should any conflicts appear, just fix them (**pro-tip:** just use [git
 mergetool](Mergetool.md)!) and use `git rebase --continue` to keep on with the
 rebase. Several aliases are available for all these operations, you can check
-them out in the [.zsh_aliases](../../.zsh/.zsh_aliases) file.
+them out in the [.zsh_aliases](../../Resources/.zsh/.zsh_aliases) file.
 
 Another way in which you can use git rebase is interactively. Why? Well,
 remember when I told you that rebasing had its quirks? Here they come!
