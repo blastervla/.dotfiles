@@ -39,6 +39,6 @@ useful.
 
 ### Resources
 As well as the documents above, you may also find my 
-[.vimrc](../Resources/.vimrc), a configuration file that configures the editor 
+[.vimrc](../../Resources/.vimrc), a configuration file that configures the editor 
 each time it's opened. You can use it to get new ideas for configurations that
 suit your typing style and make the editor much more useful to you.

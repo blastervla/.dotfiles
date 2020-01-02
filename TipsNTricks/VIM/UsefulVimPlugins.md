@@ -15,8 +15,7 @@ that allows you to do several file management operations without the need of
 exiting the editor. Just map a set of keys to open it up and a neat drawer 
 listing the files in the directory will popup on the left-side of the editor. I 
 personally have it mapped to `<leader> k`, but you can use anything that works 
-best for you (check [this](Leader.md) out if you don't know what a `<leader>` 
-is).
+best for you.
 
 I suggest reviewing my [NERDTree config](../../Resources/.vimrc) if you'd like
 to have nice icons and Git support included with the plugin.
