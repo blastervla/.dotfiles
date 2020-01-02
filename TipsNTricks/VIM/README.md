@@ -30,12 +30,12 @@ documents that talk about some functionalities and plugins which you might find
 useful.
 
 - [Useful VIM Plugins](UsefulVimPlugins.md)
-- How to change your color scheme
-- The MOST useful VIM command
-- Enabling VIMs native spell-checker
-- What's a <leader>, and what to do with it?
-- Using macros
-- Generally unuseful but COOL VIM features
+- [How to change your color scheme](ColorSchemes.md)
+- [Enabling syntax highlighting](SyntaxHighlighting.md)
+- [The MOST useful VIM command](DotCommand.md)
+- [Enabling VIMs native spell-checker](SpellChecker.md)
+- [Using macros](Macros.md)
+- [(Generally unuseful but) COOL VIM features](CoolFeatures.md)
 
 ### Resources
 As well as the documents above, you may also find my 
