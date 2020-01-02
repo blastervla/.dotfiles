@@ -6,7 +6,7 @@ Different resources will be hosted here to provide examples or configurations
 for varied environments and tools.
 
 ## Practices by Type
-- [Code Review](BestPractices/CodeReview)
+- [Code Review](BestPractices/PullRequests.md)
 
 ## Tips and Tricks
 - [Git](TipsNTricks/Git)
