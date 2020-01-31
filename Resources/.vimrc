@@ -1,9 +1,7 @@
-	" Specify a directory for plugins
+" Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
-
-execute pathogen#infect()
 
 filetype plugin indent on
 syntax on
@@ -164,6 +162,8 @@ match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
 " }}}
 
 " Plugins {{{
+  Plug 'itchyny/lightline.vim' " adds bottom status bar
+  Plug 'rafi/awesome-vim-colorschemes' " adds color schemes
   Plug 'ctrlpvim/ctrlp.vim' " adds fuzzy finder
   " vim-buffet {{{
 		Plug 'bagrat/vim-buffet' " adds tabs
