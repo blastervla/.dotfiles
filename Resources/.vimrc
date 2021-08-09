@@ -247,9 +247,9 @@ match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
     " }}}
 "}}}
 
+" Initialize plugin system
+call plug#end()
+
 " Colorscheme {{{
   colorscheme hybrid_material
 " }}}
-
-" Initialize plugin system
-call plug#end()
